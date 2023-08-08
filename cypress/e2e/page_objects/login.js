@@ -1,6 +1,6 @@
 class Login {
 
-    elements={
+    elements = {
         emailField:() => cy.get('input[placeholder="Email address"]'),
         passwordField:() => cy.get('input[placeholder="Password"]'),
         signInBtn:() => cy.get('.mat-flat-button'),
